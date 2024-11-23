@@ -1,0 +1,374 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1{
+    margin-top: 0%;
+     padding-top: 1%;
+     padding-bottom: 1%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.cl1{
+    margin-left: 2%;
+    margin-right: 4%      
+}
+.cl1 img,.cl2 img{
+    margin-top: 0%;
+    margin-bottom: -0.5%;
+}
+.btn1 {
+    margin-left: 45%;
+    background-color: white;
+    color: dodgerblue;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(200,200,200);
+    padding:15px 25px 15px 25px;
+    margin-left: 50%;
+}
+
+.btn2 {
+    background-color: #185ae8;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(200,200,200);
+    padding:15px 25px 15px 25px;
+    margin-left: 1%;
+}
+.btn3{
+    background-color: #185ae8;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(200,200,200);
+    padding:15px 25px 15px 25px;
+    margin-left: 48%;
+    margin-top: 1.5%;
+}
+.cl3{
+    margin-left: 35%;
+}
+.one {
+    margin-left: 6%;
+    margin-top: 2.5%;
+}
+
+.two {
+    font-size: 330%;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.txt{
+    margin-top: 1%;
+    margin-left: 22%;
+    font-size: 16px;
+    color: #5F6368;
+    font-family: Google sans Text,Google Sans,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 24px;
+}
+.three img {
+    margin-left: 27%;
+    margin-top: -4%;
+}
+.cl4{
+    font:34px Google sans Text,Google Sans,Roboto,Arial,sans-serif;
+}
+.txt1{
+    font: 18px Google sans Text,Google Sans,Roboto,Arial,sans-serif;
+    color: #5F6368;
+    letter-spacing: .1px;
+    line-height: 30px;
+}
+/* 3 */
+.sec3 {
+    text-align: center;
+}
+.sec3 h3 {
+    margin-top: 2%;
+    font: 18px Google Sans,Roboto,Arial,sans-serif;
+    color: #5f6368;
+}
+/* 4 */
+.tab1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.tab2, .tab3{
+    display: flex;
+    justify-content:space-evenly;
+    width: 60%;
+}
+.tab2{
+    margin-top: 2%;
+}
+.tab3 {
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.tab4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12%; 
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+
+.tab4 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px; 
+}
+.tab4 a {
+    text-decoration: none; 
+}
+
+.tab4 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: sans-serif, Google Sans, Roboto, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #5F6368;
+}
+
+.tab3 .item {
+    margin-right: 10px; 
+}
+/* 6 */
+.six{
+    text-align: center;
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: dimgray;
+    line-height: 20px;
+}
+/* 7 */
+.seven{
+    text-align: center;
+    font:38px Google sans Text,Google Sans,Roboto,Arial,sans-serif;
+    color: #202124;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: -.25px;
+    margin-top: 5%;
+}
+.zup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 3%;
+}
+.zup1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.zup1 a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.zup1 a::before {
+    content: "|"; 
+    margin-right: 10px;
+    color: black;
+    font-size: 22px;
+    line-height: 50px;
+}
+.zup2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10%;
+}
+
+.zup2 img {
+    width:75%;
+}
+
+/* 8 */
+.eight{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+.tup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 5%;
+    margin-bottom:8%;
+}
+.tup2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -8%;
+    margin-top: -5%;
+}
+
+.tup2 a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.tup2 a::before {
+    content: "|"; 
+    margin-right: 10px;
+    color: black;
+    font-size: 22px;
+    line-height: 50px;
+}
+.tup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-5%;
+    width:80%;
+  
+}
+
+.tup1 img {
+    width:75%;
+}
+
+  .carousel-inner {
+    text-align: center; 
+  }
+
+  .carousel-item img {
+    margin: 0 auto; 
+  }
+
+  .carousel-item h2, 
+  .carousel-item p {
+    margin: 0 auto; 
+    text-align: center; 
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+  }
+.a1{
+    margin-top: 9%;
+}
+.carousel-item h2{
+    font-size: 28px;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+/* 9 */
+.sec9{
+    align-items: center;
+    text-align: center;
+    font-size: 130%;
+    background-color: whitesmoke;
+   
+}
+.div9 img{
+    padding-top: 8%;
+}
+.card{
+    width: 20%;
+   padding-right: 5%;
+   padding-left: 3%;
+ 
+}
+.crd{
+   padding-top: 2%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: initial;
+}
+.card-img-top{
+   
+   margin-left: -38%;
+}
+
+.card-text{
+   color: #5F6368;
+   font-size: 18px;
+}
+.line{
+   color: #1456e5;
+   font-size:large;
+   padding-bottom: 5%;
+   padding-top: 2%;
+}
+/* 12 */
+.sec12{
+    margin-top: 6%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.sec12 h2{
+    font-size:280%;
+    margin-top: 1%;
+}
+.btn22{
+    margin-top: 1%;
+}
+/* 13 */
+.sec13{
+    padding: 3%;
+}
+ .blg1{
+    margin-left: 15%;
+ }
+.sec14{
+    display: flex;
+    background-color: whitesmoke;
+    padding-top: 2%;
+    color:  dimgray;
+    padding-bottom: 2%;  
+}
+.div14{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.div14 a{
+    margin-left: 14%;
+}
+.div14 p{
+    margin-left: 3%;
+}
+.blg2{
+    display: flex;
+    gap:35px;
+    margin-left: 3%;
+}
